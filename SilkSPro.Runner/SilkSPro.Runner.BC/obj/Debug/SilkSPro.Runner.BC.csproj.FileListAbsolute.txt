@@ -2,3 +2,7 @@ D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runn
 D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.BC\bin\Debug\SilkSPro.Runner.BC.pdb
 D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.BC\obj\Debug\SilkSPro.Runner.BC.dll
 D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.BC\obj\Debug\SilkSPro.Runner.BC.pdb
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.BC\bin\Debug\SilkSPro.Runner.BC.dll
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.BC\bin\Debug\SilkSPro.Runner.BC.pdb
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.BC\obj\Debug\SilkSPro.Runner.BC.dll
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.BC\obj\Debug\SilkSPro.Runner.BC.pdb
