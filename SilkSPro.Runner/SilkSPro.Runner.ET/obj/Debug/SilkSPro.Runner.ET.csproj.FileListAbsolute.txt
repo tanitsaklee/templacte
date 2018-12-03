@@ -1,0 +1,4 @@
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.ET\bin\Debug\SilkSPro.Runner.ET.dll
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.ET\bin\Debug\SilkSPro.Runner.ET.pdb
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.ET\obj\Debug\SilkSPro.Runner.ET.dll
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.ET\obj\Debug\SilkSPro.Runner.ET.pdb

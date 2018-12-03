@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilkSPro.Runner.UI", "SilkSPro.Runner.UI\SilkSPro.Runner.UI.csproj", "{986CAB66-674E-45CB-929D-46ABA2B9422B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE} = {7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE}
+		{242F105F-6928-4A34-B135-52B728C0563B} = {242F105F-6928-4A34-B135-52B728C0563B}
+		{ECB723EF-D092-407E-B698-7599F7B13AD2} = {ECB723EF-D092-407E-B698-7599F7B13AD2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilkSPro.Runner.VM", "SilkSPro.Runner.VM\SilkSPro.Runner.VM.csproj", "{7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilkSPro.Runner.BC", "SilkSPro.Runner.BC\SilkSPro.Runner.BC.csproj", "{242F105F-6928-4A34-B135-52B728C0563B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilkSPro.Runner.DC", "SilkSPro.Runner.DC\SilkSPro.Runner.DC.csproj", "{FFF5CDC1-0C02-4D32-91AB-638D5C86AE22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilkSPro.Runner.ET", "SilkSPro.Runner.ET\SilkSPro.Runner.ET.csproj", "{ECB723EF-D092-407E-B698-7599F7B13AD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{986CAB66-674E-45CB-929D-46ABA2B9422B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986CAB66-674E-45CB-929D-46ABA2B9422B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986CAB66-674E-45CB-929D-46ABA2B9422B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986CAB66-674E-45CB-929D-46ABA2B9422B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242F105F-6928-4A34-B135-52B728C0563B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242F105F-6928-4A34-B135-52B728C0563B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242F105F-6928-4A34-B135-52B728C0563B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242F105F-6928-4A34-B135-52B728C0563B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF5CDC1-0C02-4D32-91AB-638D5C86AE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF5CDC1-0C02-4D32-91AB-638D5C86AE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF5CDC1-0C02-4D32-91AB-638D5C86AE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF5CDC1-0C02-4D32-91AB-638D5C86AE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB723EF-D092-407E-B698-7599F7B13AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB723EF-D092-407E-B698-7599F7B13AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB723EF-D092-407E-B698-7599F7B13AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB723EF-D092-407E-B698-7599F7B13AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
