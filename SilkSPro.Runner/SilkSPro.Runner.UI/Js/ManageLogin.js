@@ -62,7 +62,16 @@ function OnInitBeforeLogin() {
     html += " 	</div>";
     html += " 	<div class='ibox-content'>";
     html += "       <div class='form-group'>";
-    html += "           ";
+    html += "           <div class='col-sm-4'></div>";
+    html += "           <div class='col-sm-4'>";
+    html += "               <input type='text' class='form-control'placeholder='Username' id='txtUserName'";
+    html += "           </div>";
+    html += "       </div>";
+    html += "       <div class='form-group'>";
+    html += "           <div class='col-sm-4'></div>";
+    html += "           <div class='col-sm-4'>";
+    html += "               <input type='password' class='form-control'placeholder='Password' id='txtPassword'";
+    html += "           </div>";
     html += "       </div>";
     html += " 	</div>";
     html += " </div>";
