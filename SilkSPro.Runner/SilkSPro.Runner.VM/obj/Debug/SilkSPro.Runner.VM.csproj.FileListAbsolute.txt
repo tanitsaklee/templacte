@@ -2,3 +2,10 @@ D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runn
 D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.VM\bin\Debug\SilkSPro.Runner.VM.pdb
 D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.VM\obj\Debug\SilkSPro.Runner.VM.dll
 D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSPro\SilkSPro.Runner\SilkSPro.Runner.VM\obj\Debug\SilkSPro.Runner.VM.pdb
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.VM\bin\Debug\SilkSPro.Runner.VM.dll
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.VM\bin\Debug\SilkSPro.Runner.VM.pdb
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.VM\bin\Debug\SilkSPro.Runner.ET.dll
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.VM\bin\Debug\SilkSPro.Runner.ET.pdb
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.VM\obj\Debug\SilkSPro.Runner.VM.csprojResolveAssemblyReference.cache
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.VM\obj\Debug\SilkSPro.Runner.VM.dll
+D:\Tanitsak.lee\01_ASPNET-Old\30_SilkSPro\SilkSProGit\templacte\SilkSPro.Runner\SilkSPro.Runner.VM\obj\Debug\SilkSPro.Runner.VM.pdb

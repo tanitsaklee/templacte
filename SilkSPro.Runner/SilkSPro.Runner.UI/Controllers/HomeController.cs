@@ -13,7 +13,7 @@ namespace SilkSPro.Runner.UI.Controllers
         {
             ViewData["Message"] = "Welcome Test";
 
-            return View();
+            return RedirectToAction("Index", "ManageLogin");
         }
 
         public ActionResult About()

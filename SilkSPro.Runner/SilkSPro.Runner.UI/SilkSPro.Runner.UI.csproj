@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageLoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -192,6 +193,7 @@
     <Content Include="Images\logo_ssl_0513.png" />
     <Content Include="Images\user-default.png" />
     <Content Include="Js\helpers.js" />
+    <Content Include="Js\ManageLogin.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\inspinia.js" />
@@ -646,6 +648,7 @@
     <Content Include="Scripts\plugins\validate\jquery.validate.min.js" />
     <Content Include="Scripts\plugins\video\responsible-video.js" />
     <Content Include="Scripts\plugins\wow\wow.min.js" />
+    <Content Include="Views\ManageLogin\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -731,6 +734,20 @@
     <None Include="Scripts\plugins\diff_match_patch\COPYING" />
     <None Include="Scripts\plugins\justified-gallery\README.md" />
     <None Include="Scripts\plugins\topojson\LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SilkSPro.Runner.BC\SilkSPro.Runner.BC.csproj">
+      <Project>{242F105F-6928-4A34-B135-52B728C0563B}</Project>
+      <Name>SilkSPro.Runner.BC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SilkSPro.Runner.ET\SilkSPro.Runner.ET.csproj">
+      <Project>{ECB723EF-D092-407E-B698-7599F7B13AD2}</Project>
+      <Name>SilkSPro.Runner.ET</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SilkSPro.Runner.VM\SilkSPro.Runner.VM.csproj">
+      <Project>{7BF4654B-6E8C-4ABE-BC1C-4A5A96DD11CE}</Project>
+      <Name>SilkSPro.Runner.VM</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
