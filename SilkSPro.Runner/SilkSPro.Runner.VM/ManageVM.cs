@@ -8,6 +8,6 @@ namespace SilkSPro.Runner.VM
 {
     public class ManageVM
     {
-        public LoginET loginPET { get; set; }
+        public LoginET data { get; set; }
     }
 }

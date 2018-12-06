@@ -53,28 +53,49 @@ function chooseManagement(_type) {
 
 function OnInitBeforeLogin() {
     var html = "";
-
-    html += " <div class='ibox float-e-margins'>";
-    html += " 	<div class='ibox-title'>";
-    html += " 		<h5>Login</h5>";
-    html += " 		<div class='ibox-tools'>";
+    html += "<div class='row'>";
+    html += " <div class='ibox-content'>";
+    html += " 	<div class='row'>";
+    html += " 		<div class='col-sm-6 b-r'><h3 class='m-t-none m-b'>Sign in</h3>";
+    html += " 			<p>Sign in today for more expirience.</p>";
+    html += " 			<form role='form' id='loginform'>";
+    html += " 				<div class='form-group'><input type='text' name='Username' id='Username' placeholder='UserName: Email' class='form-control'></div>";
+    html += " 				<div class='form-group'><input type='password' name='Password'  id='Password'   placeholder='Enter: Password' class='form-control'></div>";
+    html += " 				<div>";
+    html += " 					<button class='btn btn-sm btn-primary pull-right m-t-n-xs' type='button' id='btnLoginPage'><strong>Log in</strong></button>";
+    html += " 				</div>";
+    html += " 			</form>";
+    html += " 		</div>";
+    html += " 		<div class='col-sm-6'><h4>Not a member?</h4>";
+    html += " 			<p>You can create an account:</p>";
+    html += " 			<p class='text-center'>";
+    html += " 				<a href=''><i class='fa fa-sign-in big-icon'></i></a>";
+    html += " 			</p>";
     html += " 		</div>";
     html += " 	</div>";
-    html += " 	<div class='ibox-content'>";
-    html += "       <div class='form-group'>";
-    html += "           <div class='col-sm-4'></div>";
-    html += "           <div class='col-sm-4'>";
-    html += "               <input type='text' class='form-control'placeholder='Username' id='txtUserName'";
-    html += "           </div>";
-    html += "       </div>";
-    html += "       <div class='form-group'>";
-    html += "           <div class='col-sm-4'></div>";
-    html += "           <div class='col-sm-4'>";
-    html += "               <input type='password' class='form-control'placeholder='Password' id='txtPassword'";
-    html += "           </div>";
-    html += "       </div>";
-    html += " 	</div>";
     html += " </div>";
+    html += "</div>";
+
     $("#dvpageLogin").html(html);
+
+    $("#btnLoginPage").on("click", function () {
+        //        var ManageVM = new Object();
+        //        ManageVM.Username = $("#Username").val();
+        //        ManageVM.Password = $("#Password").val();
+        //        /*
+        //        var strUserName = $("input[name$='Username']").val();
+        //        var strPassword = $("input[name$='Password']").val();
+        //        */
+        //        var strUserName = $("input[name$='Username']").val();
+        //        var strPassword = $("input[name$='Password']").val();
+        //        var data = {};
+
+        //        data.Username = strUserName;
+        //        data.Password = strPassword;
+                
+        var x = $('#loginform').serializeArray();
+        var webMethod = '/ManageLogin/Index';
+        var res = AjaxWebMVC(webMethod, x);
+    });
 }
 
